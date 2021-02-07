@@ -1,0 +1,211 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#nav-bar
+{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.navbar-brand img
+{
+    height: 80px;
+    padding-left: 80px;
+    image-orientation: center;
+}
+.navbar-nav li
+{
+    padding: 0 10px;
+}
+.navbar-nav li a
+{
+    float: right;
+    text-align: left;
+}
+#nav-bar ul li a:hover
+{
+    color: #007bff!important;
+}
+.navbar
+{
+    background: #fff;
+}
+.navbar-toggler
+{
+    border: none!important;
+}
+.nav-link
+{
+    color: #555!important;
+    font-weight: 600;
+    font-size: 16px;
+}
+#slider
+{
+    width: 100%;
+
+}
+.carousel-caption
+{
+    top: 30%;
+    transform: translate(-2%);
+    bottom: initial !important;
+}
+.carousel-caption h5
+{
+    color: rgb(250, 75, 6);
+    font-size: 50px;
+    font: bold;
+}
+.carousel-caption h10
+{
+    color: hsl(340, 94%, 25%);
+    font-size: 100px;
+    font: bold;
+}
+.container
+{
+    max-width: 120px;
+    margin: auto;
+    background: #f2f2f2;
+    overflow: auto;
+
+}
+.gallery
+{
+    margin: 10px;
+    float: left;
+    width:350px;
+}
+.gallery h1
+{
+    text-align: center;
+    color: black;
+}
+.gallery img
+{
+    width: 100%;
+    height: auto;
+}
+
+#services
+{
+    background-image: linear-gradient(#ffffff,#f5d183cc),url(6.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #efefef !important ;
+    background-attachment: fixed;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#services h1
+{
+    text-align: center;
+    padding-bottom: 50px;
+    color: black;
+    font: bold;
+}
+#services h1::after
+{
+    content: '';
+    background: #a00c2c;
+    display: block;
+    height: 3px;
+    width :170px;
+    margin: 20px auto 5px;
+}
+#services p
+{
+    font-size: 30px;
+    color: black;
+    font: bold;
+}
+
+
+.testimonials
+{
+    margin: 50px auto;
+}
+.testimonials h1
+{
+    text-align: center;
+    font-weight: bold;
+    color: #080808;
+    padding-bottom: 10px;
+    text-transform: none;
+}
+
+.testimonials img{
+    width: 100%;
+    height: auto;
+}
+.testimonials h1::after
+{
+    content: '';
+    background: #a00c2c;
+    display: block;
+    height: 3px;
+    width: 170px;
+    margin: 20px auto 5px;
+}
+
+
+
+
+#contact
+{
+    background: #efefef;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    color: #777;
+}
+#contact h1
+{
+    text-align: center;
+    color: black;  
+    
+}
+.contact-form
+{
+    padding: 20px;
+}
+.form-control
+{
+    border-radius: 0 !important;
+    border: none !important;
+}
+::placeholder
+{
+    color: #999 !important;
+}
+.follow
+{
+    background: #fff;
+    padding: 10px;
+    margin: 15px;
+}
+.contact-info .fa
+{
+    margin: 10px;
+    color: #007bff;
+    font-weight: bold;
+}
+
+
+#footer
+{
+    background: rgb(10, 10, 10);
+    color: rgb(12, 12, 12);
+    padding: 20px;
+    text-align: center;
+}
+#footer
+{
+    font: bolder;
+}
+.fa-heart-o
+{
+    margin: 1px;
+    color: red;  
+}
